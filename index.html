@@ -4,17 +4,23 @@
     <meta charset="utf-8">
     <title>My Portfolio!</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contacts">Contacts</a>
-        </nav>
-        <section id="about">
+    <header id="home">
+        <section id="start">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacts">Contacts</a>
+                <a href="#home">Home</a>
+            </nav>
             <h1>Johhny Deep, Actor</h1>
-            <h2>About me</h2>
+        </section>
+        <section id="about">
+            <h2 class="title">About me</h2>
             <img src="images/johny.webp" alt="Johny Deep">
             <p>Hello, I'm Johny i played in pirates of cariben 1,2 and 3</p>
             <p>I love to play in films that take place on Carrabians</p>
@@ -23,22 +29,28 @@
             HTML, CSS, JS, React, Node.js</p>
         </section>
         <section id="portfolio">
-            <h2>Portfolio</h2>
+            <h2 class="title">Portfolio</h2>
             <img src="images/PIC1.jpg" alt="Pirates nr 1">
             <p>Pirates of the Carabeans 1</p>
             <img src="images/PIC2.webp" alt="Pirates nr 2">
             <p>Pirates of the Carabeans 2</p>
         </section>
         <section id="contacts">
-            <h2>Contacts</h2>
-            <p>You can contact with me through e-mail <a href= "mailto: kubarak41@gmail.com">kubarak41@gmail.com</a> or phone number <a href="882154...">882154...</a></p>
-            <img src="images/github.svg" alt="Github" width="20%">
-            <img src="images/facebook.svg" alt="Facebook" width="20%">
-            <img src="images/twitter.svg" alt="Twiiter" width="20%">
-            <img src="images/instagram.svg" alt="Instagram" width="20%">
+            <h2 class="title">Contacts</h2>
+            <p>You can contact with me through e-mail <a href= "mailto: kubarak41@gmail.com">kubarak41@gmail.com</a></p>
+            <p>or phone number <a href="882154...">882154...</a></p>
+            <p class="container">
+                <img class="contactimg" src="images/github.svg" alt="Github" width="20%">
+                <img class="contactimg" src="images/facebook.svg" alt="Facebook" width="20%">
+                <img class="contactimg" src="images/twitter.svg" alt="Twiiter" width="20%">
+                <img class="contactimg" src="images/instagram%201.svg" alt="Instagram" width="20%">
+            </p>
         </section>
     </header>
-    <footer>Johny Deep, 2020</footer>
+    <footer>
+        <p class="title">Johny Deep</p>
+        <p>2022</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>

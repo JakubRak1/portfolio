@@ -1,3 +1,44 @@
-.bold{
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#contacts{
+    padding: 25px 0 25px;
+    color: white;
+    text-align: center;
+    background-image: url("images/contact.png");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.contactimg{
+    max-width: 4rem;
+    max-height: 4rem;
+    flex-flow: row;
+    opacity: 60%;
+    margin: 10px;
+}
+.title{
+    font-size: 26px;
     font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    padding: 25px 0 25px;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    background-image: url("images/footer.png");
+    background-position: center;
+    background-size: cover;
 }
