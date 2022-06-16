@@ -12,42 +12,68 @@
     <header id="home">
         <section id="start">
             <nav>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contacts">Contacts</a>
-                <a href="#home">Home</a>
+                <span class="spanNav">
+                    <a class="navBtn" href="#about">About Me</a>
+                </span>
+                <span class="spanNav">
+                <a class="navBtn" href="#portfolio">Portfolio</a>
+                </span>
+                <span class="spanNav">
+                <a class="navBtn" href="#contacts">Contacts</a>
+                </span>
+                <span class="spanNav active">
+                <a class="navBtn" href="#home">Home</a>
+                </span>
             </nav>
-            <h1>Johhny Deep, Actor</h1>
+            <div class="head">
+                <h1 class="title main">Johhny Deep, Actor</h1>
+            </div>
         </section>
-        <section id="about">
-            <h2 class="title">About me</h2>
-            <img src="images/johny.webp" alt="Johny Deep">
-            <p>Hello, I'm Johny i played in pirates of cariben 1,2 and 3</p>
-            <p>I love to play in films that take place on Carrabians</p>
-            <p>But I can play in others too :)</p>
-            <p><a class="bold">Skills: </a>
-            HTML, CSS, JS, React, Node.js</p>
+        <section id="about" class="container background">
+            <img class="projectImg" id="aboutMeImg" src="images/johny.webp" alt="Johny Deep">
+            <span>
+                <h2 class="title" id="aboutMeText">About me</h2>
+                <p class="content">Hello, I'm Johny i played in pirates of cariben 1,2 and 3</p>
+                <p class="content">I love to play in films that take place on Carrabians</p>
+                <p class="content">But I can play in others too :)</p>
+                <p class="content"><a class="title">Skills : </a>
+                HTML, CSS, JS, React, Node.js</p>
+            </span>
         </section>
-        <section id="portfolio">
+        <section id="portfolio" class="background">
             <h2 class="title">Portfolio</h2>
-            <img src="images/PIC1.jpg" alt="Pirates nr 1">
-            <p>Pirates of the Carabeans 1</p>
-            <img src="images/PIC2.webp" alt="Pirates nr 2">
-            <p>Pirates of the Carabeans 2</p>
+            <div class="container">
+            <p class="project">
+                <img class="projectImg" src="images/PIC1.jpg" alt="Pirates nr 1">
+                <span class="titleproject">Pirates of the Carabeans 1</span>
+            </p>
+            <p class="project">
+                <img class="projectImg" src="images/PIC2.webp" alt="Pirates nr 2">
+                <span class="titleproject">Pirates of the Carabeans 2</span>
+            </p>
+            </div>
         </section>
-        <section id="contacts">
+        <section id="contacts" class="background">
             <h2 class="title">Contacts</h2>
             <p>You can contact with me through e-mail <a href= "mailto: kubarak41@gmail.com">kubarak41@gmail.com</a></p>
             <p>or phone number <a href="882154...">882154...</a></p>
             <p class="container">
-                <img class="contactimg" src="images/github.svg" alt="Github" width="20%">
-                <img class="contactimg" src="images/facebook.svg" alt="Facebook" width="20%">
-                <img class="contactimg" src="images/twitter.svg" alt="Twiiter" width="20%">
-                <img class="contactimg" src="images/instagram%201.svg" alt="Instagram" width="20%">
+                <a href="https://github.com/JakubRak1">
+                    <img class="contactimg" src="images/github.svg" alt="Github">
+                </a>
+                <a href="http://facebook.com">
+                    <img class="contactimg" src="images/facebook.svg" alt="Facebook">
+                </a>
+                <a href="http://twitter.com">
+                    <img class="contactimg" src="images/twitter.svg" alt="Twiiter">
+                </a>
+                <a href="http://instagram.com">
+                    <img class="contactimg" src="images/instagram%201.svg" alt="Instagram">
+                </a>
             </p>
         </section>
     </header>
-    <footer>
+    <footer class="background">
         <p class="title">Johny Deep</p>
         <p>2022</p>
     </footer>
