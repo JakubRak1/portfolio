@@ -1,4 +1,6 @@
 /* Nav bar */
+let navBar = document.getElementById(`navBar`);
+let headText = document.getElementById(`head`);
 let hamburgerTransmition = document.getElementById(`hambNav`);
 let hamb1 = document.getElementById(`firstHamb`);
 let hamb2 = document.getElementById(`secondHamb`);
@@ -15,12 +17,15 @@ let closeProject2Btn = document.getElementById(`closeProject2`);
 let project_1 = document.getElementById(`windowProject1`);
 let project_2 = document.getElementById(`windowProject2`);
 
+/* Burger bar */
 hamburgerTransmition.onclick = function (){
     hamb1.classList.toggle(`change1`);
     hamb2.classList.toggle(`change2`);
     hamb3.classList.toggle(`change3`);
     hamburgerTransmition.classList.toggle(`change4`);
     navList.classList.toggle(`visibility`);
+    navBar.classList.toggle(`navBarFixed`);
+    headText.classList.toggle(`headCenter`);
 };
 
 

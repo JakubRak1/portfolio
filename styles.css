@@ -34,6 +34,7 @@ header{
     display: block;
     cursor: pointer;
     padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 1px;
 }
 .hamb1, .hamb2, .hamb3{
     display: block;
@@ -64,12 +65,19 @@ header{
 }
 .change4{
     background-color: white;
+    border: 1px solid black;
+    margin: 0;
 }
-nav{
+#navBar{
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: right;
+}
+.navBarFixed{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .mobileNav{
     display: flex;
@@ -80,6 +88,10 @@ nav{
 }
 .visibility{
     visibility: visible;
+    position: fixed;
+    left: 100%;
+    right: 100px;
+    top: 62px;
 }
 .navBtnMobile{
     text-align: center;
@@ -87,6 +99,7 @@ nav{
     margin: 0;
     background-color: white;
     width: 100px;
+    border: 1px solid black;
 }
 .insideLink{
     text-decoration: none;
@@ -100,10 +113,15 @@ nav{
     background-color: black;
     color: white;
 }
-.head{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#head{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+.headCenter{
+    position: absolute;
+    top: 40%;
+    right: 40%;
 }
 .main{
     color: white;
