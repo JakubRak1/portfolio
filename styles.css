@@ -34,7 +34,6 @@ header{
     display: block;
     cursor: pointer;
     padding: 1rem 0.5rem 1rem 0.5rem;
-    margin: 1px;
 }
 .hamb1, .hamb2, .hamb3{
     display: block;
@@ -65,8 +64,6 @@ header{
 }
 .change4{
     background-color: white;
-    border: 1px solid black;
-    margin: 0;
 }
 #navBar{
     background-color: black;
@@ -91,7 +88,7 @@ header{
     position: fixed;
     left: 100%;
     right: 100px;
-    top: 62px;
+    top: 61px;
 }
 .navBtnMobile{
     text-align: center;
@@ -114,14 +111,9 @@ header{
     color: white;
 }
 #head{
-    position: absolute;
-    top: 40%;
-    right: 40%;
-}
-.headCenter{
-    position: absolute;
-    top: 40%;
-    right: 40%;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
 }
 .main{
     color: white;
@@ -132,6 +124,8 @@ header{
     background-color: dimgrey;
 }
 #aboutMeImg{
+    height: 35rem;
+    width: 24rem;
     margin: 5rem 10rem 5rem 0;
 }
 #aboutMeText{
@@ -156,8 +150,8 @@ header{
 }
 
 .projectImg{
-    height: 35rem;
-    width: 24rem;
+    height: 22rem;
+    width: 20rem;
     margin-bottom: 0.5rem;
 }
 button{
